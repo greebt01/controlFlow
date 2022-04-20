@@ -20,3 +20,6 @@ Changed to use the or logical operator
 # Update6
 Changed initial value of variable
 
+# Update7
+changed to add the and operator
+

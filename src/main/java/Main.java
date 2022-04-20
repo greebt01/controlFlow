@@ -2,7 +2,8 @@ public class Main {
     public static void main(String[] args) {
         boolean hasHighIncome = false;
         boolean hasGoodCredit = true;
-        boolean isEligible = hasHighIncome || hasGoodCredit;
+        boolean hasCriminalRecord = false;
+        boolean isEligible = (hasHighIncome || hasGoodCredit) && !hasCriminalRecord;
         System.out.println(isEligible);
     }
 }
