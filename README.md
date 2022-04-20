@@ -8,3 +8,6 @@ Changed == to != in for output
 # Update2
 Changed y to 2 and not to <=
 
+# Update3
+Added logical operator
+
